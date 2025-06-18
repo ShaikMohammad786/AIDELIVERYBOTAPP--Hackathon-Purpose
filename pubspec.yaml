@@ -1,0 +1,28 @@
+name: delivery_robot_auth
+description: Stylish robot login & register UI
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  http: ^1.1.0
+  flutter:
+    sdk: flutter
+  lottie: ^3.0.0
+  provider: ^6.0.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/robot_login.json
+    - assets/robot_register.json
+    - assets/payment_bg.json
+    - assets/payment_anim.json
+    - assets/code_bg.json
+    - assets/code_anim.json
+    - assets/delivery_bg.json
+    - assets/delivery_anim.json
+    - assets/success.json
+    - assets/denied.json
